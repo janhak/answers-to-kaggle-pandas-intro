@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "answers-to-kaggle-pandas-intro"
+version = "0.1.0"
+description = ""
+authors = ["Jan Chwiejczak"]
+readme = "README.md"
+packages = [{include = "answers_to_kaggle_pandas_intro"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^3.6.3"
+pandas = "^2.0.1"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
